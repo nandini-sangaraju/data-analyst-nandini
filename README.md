@@ -7,7 +7,7 @@ The project focuses on designing and implementing a Data Analytics Platform (DAP
 
 # Objective:
 The primary objective of this project is to develop a robust data analytics platform that can efficiently process and analyze 3-1-1 service request data. The platform will enable the city of Vancouver to improve its call center operations by identifying trends, evaluating performance metrics, and enhancing customer service practices.
-! [.](https://github.com/nandini-sangaraju/data-analyst-nandini/blob/main/Images/objective.png)
+![.](https://github.com/nandini-sangaraju/data-analyst-nandini/blob/main/Images/objective.png)
 
 # Methodology:
 
