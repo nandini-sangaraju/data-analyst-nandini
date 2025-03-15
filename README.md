@@ -9,7 +9,7 @@ The project focuses on designing and implementing a Data Analytics Platform (DAP
 The primary objective of this project is to develop a robust data analytics platform that can efficiently process and analyze 3-1-1 service request data. The platform will enable the city of Vancouver to improve its call center operations by identifying trends, evaluating performance metrics, and enhancing customer service practices.
 
 *Figure 1 Data Analytics Platform design (Draw.io)*
-<img src='./src/welcome-friends-prism.gif'>
+<img src='./Images/Data_catalog_table.jpeg'>
 # Methodology:
 
 The project follows a structured approach to data analytics, divided into five key steps:
