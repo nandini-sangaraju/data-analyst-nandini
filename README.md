@@ -7,6 +7,7 @@ The project focuses on designing and implementing a Data Analytics Platform (DAP
 
 # Objective:
 The primary objective of this project is to develop a robust data analytics platform that can efficiently process and analyze 3-1-1 service request data. The platform will enable the city of Vancouver to improve its call center operations by identifying trends, evaluating performance metrics, and enhancing customer service practices.
+
 ![.](https://github.com/nandini-sangaraju/data-analyst-nandini/blob/main/Images/objective.png)
 
 # Methodology:
@@ -14,7 +15,8 @@ The primary objective of this project is to develop a robust data analytics plat
 The project follows a structured approach to data analytics, divided into five key steps:
 
 -   **Data Ingestion**:Data is collected from various sources and stored in an Amazon S3 bucket. The data is organized in a structured folder hierarchy for easy access and management. (*Location: /contact-centre/311-service/year=24/month=12/day=31/server=YVR-nan*)
-  ![.c](https://github.com/nandini-sangaraju/data-analyst-nandini/blob/main/Images/data_ingestion.png)
+
+ ![.c](https://github.com/nandini-sangaraju/data-analyst-nandini/blob/main/Images/data_ingestion.png)
     
 -   **Data Profiling**: AWS Glue DataBrew is used to analyze the quality of the data, identify missing values, and detect inconsistencies. This step ensures that the data is ready for further processing. (*A transfer bucket has been created in the S3 bucket for transferring data*).
     
