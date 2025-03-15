@@ -19,12 +19,20 @@ The project follows a structured approach to data analytics, divided into five k
  ![.c](https://github.com/nandini-sangaraju/data-analyst-nandini/blob/main/Images/data_ingestion.png)
     
 -   **Data Profiling**: AWS Glue DataBrew is used to analyze the quality of the data, identify missing values, and detect inconsistencies. This step ensures that the data is ready for further processing. (*A transfer bucket has been created in the S3 bucket for transferring data*).
+
+![.c](https://github.com/nandini-sangaraju/data-analyst-nandini/blob/main/Images/data_profiling.jpeg)
     
 -   **Data Cleaning:** The data is cleaned by standardizing formats, removing inconsistencies, and correcting errors (*changing the date format to yyyy-mm-dd*). This step ensures that the data is accurate and reliable for analysis.
+
+![.c](https://github.com/nandini-sangaraju/data-analyst-nandini/blob/main/Images/data_cleaning.jpeg)
     
 -   **Data Cataloging:** The cleaned data is organized using the AWS Glue Data Catalog. A database named contact-centre-data-catalog-nan was created. AWS Glue Crawlers are used to automatically create schema definitions and populate the catalog, making the data easily accessible for queries and analysis.
+
+![.c](https://github.com/nandini-sangaraju/data-analyst-nandini/blob/main/Images/data_cataloging.jpeg)
     
 -   **Data Summarization:** The data is processed through an Extract, Transform, Load (ETL) pipeline to derive key insights. This step involves summarizing the data to evaluate call center performance metrics such as the average number of calls offered and abandoned.
+
+![.c](https://github.com/nandini-sangaraju/data-analyst-nandini/blob/main/Images/pipeline_visualization.jpeg)
 
 # Tools and Technologies:
 
