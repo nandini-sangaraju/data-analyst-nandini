@@ -2,7 +2,7 @@
 
 Descriptive Analysis -- 3-1-1 Service Requests
 
-# [Project Description:]
+# Project Description:
 
 The project focuses on designing and implementing a Data Analytics
 Platform (DAP) for the 3-1-1 service requests in Vancouver. The 3-1-1
