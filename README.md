@@ -1,6 +1,6 @@
 # Project
 
-Descriptive Analysis -- 3-1-1 Service Requests
+## Descriptive Analysis -- 3-1-1 Service Requests
 
 # Project Description:
 The project focuses on designing and implementing a Data Analytics Platform (DAP) for the 3-1-1 service requests in Vancouver. The 3-1-1 service is a non-emergency contact center that provides information an assistance to residents and visitors. The platform aims to streamline the process of data ingestion, profiling, cleaning, cataloging, and summarization to derive actionable insights from the service request data.
