@@ -76,9 +76,7 @@ The project follows a structured approach to data analytics, divided into five k
 -   **Summarized Insights:** Key insights derived from the data, including metrics such as the average number of calls offered and abandoned.
 
 
-# Project - 2
-
-## Descriptive Analysis -- 3-1-1 Service Requests
+## Members List
 
 # Project Description:
 
@@ -124,3 +122,96 @@ The project follows a structured approach to data analytics, divided into five k
     
 -   **Su
 
+
+## Advisors List
+
+# Project Description:
+
+
+# Objective:
+
+
+# Methodology:
+
+The project follows a structured approach to data analytics, divided into five key steps:
+
+-   **Da
+    
+-   **Da
+    
+-   **Da 
+    
+-   **Dat
+    
+-   **Da
+
+# Tools and Technologies:
+
+-   **Am
+
+-   **AW
+
+-   **AW
+
+-   **AW
+
+-   **Vi
+
+# Deliverables:
+
+-   **Da
+    
+-   **Da
+    
+-   **Cl
+
+-   **Da
+    
+-   **Su
+
+
+## Complaint List
+
+# Project Description:
+
+
+# Objective:
+
+
+# Methodology:
+
+The project follows a structured approach to data analytics, divided into five key steps:
+
+-   **Da
+    
+-   **Da
+    
+-   **Da 
+    
+-   **Dat
+    
+-   **Da
+
+# Tools and Technologies:
+
+-   **Am
+
+-   **AW
+
+-   **AW
+
+-   **AW
+
+-   **Vi
+
+# Deliverables:
+
+-   **Da
+    
+-   **Da
+    
+-   **Cl
+
+-   **Da
+    
+-   **Su
