@@ -235,18 +235,46 @@ The Complaint List project focuses on managing and resolving student complaints 
 -   To assign the most suitable advisor based on complaint type and severity.
 -   To monitor and reduce complaint resolution times.
 
+*Figure 1 Data Analytics Platform design (Draw.io)*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/draw_io.jpeg)
+
 # Methodology:
 -   **Data Collection:** Complaint data is collected through structured CSV files and stored in Amazon S3.
+
+ *Figure 2 AWS S3 Raw data storage (Excel file)*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/complaint_s3.jpeg)
   
 -   **Data Profiling:** AWS Glue DataBrew is used to profile the dataset, identifying common complaint types, trends, and data quality issues.
+
+   *Figure 3 AWS Glue DataBrew updated data profile*
+  ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/complaint_profiling.jpeg)
   
 -   **Data Cataloging:** The dataset is registered in the AWS Glue Data Catalog to create a searchable metadata repository.
+
+  *Figure 4 AWS Glue – Data catalog - job creation & run*
+   ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/complaint_databrew.jpeg)
   
 -   **Data Transformation:** AWS Glue ETL jobs are used to clean and transform the data (e.g., standardizing complaint types, linking complaints to students and advisors).
   
 -   **Data Storage:** The cleaned data is stored back in Amazon S3 for further analysis or integration with other datasets.
   
 -   **Reporting:** AWS Glue is used to generate reports on complaint resolution times, advisor performance, and common issues.
+
+     *Figure 5 AWS Glue - ETL pipeline visualization*
+
+     ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/complaint_pipeline.jpeg)
+
+     *Figure 6 AWS S3 Curated bucket Summarized output - System*
+
+     ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/complaint_system.jpeg)
+
+     *Figure 7 AWS S3 Curated bucket Summarized output - User*
+
+     ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/complaint_user.jpeg)
+
+     *Figure 8 AWS Glue Data Catalog tables*
+
+     ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/complaint_table.jpeg)
 
 # Tools and Technologies:
 -   Data Storage: Amazon S3 for storing raw and processed complaint records.
