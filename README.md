@@ -10,6 +10,7 @@ The primary objective of this project is to develop a robust data analytics plat
 
 *Figure 1 Data Analytics Platform design (Draw.io)*
 ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/objective.png)
+
 # Methodology:
 
 The project follows a structured approach to data analytics, divided into five key steps:
@@ -162,6 +163,9 @@ The Advisor List project is designed to manage advisor records, including their 
 -   To maintain an accurate and up-to-date database of advisor records.
 -   To assign advisors to students based on specialization and availability.
 -   To monitor advisor workload and performance metrics.
+
+*Figure 1 Data Analytics Platform design (Draw.io)*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/draw_io.jpeg)
 
 # Methodology:
 -   **Data Collection:** Advisor data is collected through structured CSV files and stored in Amazon S3.
