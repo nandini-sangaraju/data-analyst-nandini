@@ -169,16 +169,41 @@ The Advisor List project is designed to manage advisor records, including their 
 
 # Methodology:
 -   **Data Collection:** Advisor data is collected through structured CSV files and stored in Amazon S3.
+
+*Figure 2 AWS S3 Raw data storage (Excel file)*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/advisor_s3.jpeg)
   
 -   **Data Profiling:** AWS Glue DataBrew is used to profile the dataset, ensuring data quality and consistency (e.g., checking for missing values, duplicates, and inconsistencies).
+
+  *Figure 3 AWS Glue DataBrew updated data profile*
+  ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/advisor_profiling.jpeg)
   
 -   **Data Cataloging:** The dataset is registered in the AWS Glue Data Catalog to create a searchable metadata repository.
-  
+
+   *Figure 4 AWS Glue – Data catalog - job creation & run*
+   ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/advisor_databrew.jpeg)
+   
 -   **Data Transformation:** AWS Glue ETL jobs are employed to clean and transform the data (e.g., standardizing formats, enriching data with additional fields).
   
 -   **Data Storage:** The cleaned data is stored back in Amazon S3 for further analysis or integration with other datasets.
   
 -   **Reporting:** AWS Glue is used to generate reports on advisor workload, performance, and availability.
+
+     *Figure 5 AWS Glue - ETL pipeline visualization*
+
+     ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/advisor_pipeline.jpeg)
+
+     *Figure 6 AWS S3 Curated bucket Summarized output - System*
+
+     ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/advisor_system.jpeg)
+
+     *Figure 7 AWS S3 Curated bucket Summarized output - User*
+
+     ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/advisor_user.jpeg)
+
+     *Figure 8 AWS Glue Data Catalog tables*
+
+     ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/advisor_table.jpeg)
 
 # Tools and Technologies:
 -   **Data Storage:** Amazon S3 for storing raw and processed advisor records.
