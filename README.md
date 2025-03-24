@@ -171,6 +171,7 @@ The Advisor List project is designed to manage advisor records, including their 
 -   **Data Collection:** Advisor data is collected through structured CSV files and stored in Amazon S3.
 
 *Figure 2 AWS S3 Raw data storage (Excel file)*
+
 ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/advisor_s3.jpeg)
   
 -   **Data Profiling:** AWS Glue DataBrew is used to profile the dataset, ensuring data quality and consistency (e.g., checking for missing values, duplicates, and inconsistencies).
