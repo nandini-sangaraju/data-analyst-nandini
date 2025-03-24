@@ -100,33 +100,31 @@ The project follows a structured approach to data analytics, divided into five k
 -   **Data Profiling:** AWS Glue DataBrew is used to profile the dataset, identifying missing values, duplicates, and inconsistencies.
 
   *Figure 3 AWS Glue DataBrew updated data profile*
-![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/data_profiling.jpeg)
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/member_profiling.jpeg)
     
 -   **Data Cataloging:** The dataset is registered in the AWS Glue Data Catalog to create a searchable metadata repository.
 
-  *Figure 4 AWS Glue DataBrew Profiling Job*
-![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/data_cleaning.jpeg)
 
 -   **Data Transformation:** AWS Glue ETL jobs are employed to clean and standardize the data (e.g., formatting names, correcting GPA values).
 
-  *Figure 5 AWS Glue – Data catalog - job creation & run*
-![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/data_cataloging.jpeg)
+  *Figure 4 AWS Glue – Data catalog - job creation & run*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/member_databrew.jpeg)
 
 -   **Data Storage:** The cleaned data is stored back in Amazon S3 for further analysis or integration with other datasets.
  
 -   **Reporting:** AWS Glue is used to generate reports on student demographics, academic trends, and enrollment statistics. 
 
-    *Figure 6 AWS Glue - ETL pipeline visualization*
-![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/pipeline_visualization.jpeg)
+    *Figure 5 AWS Glue - ETL pipeline visualization*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/member_pipeline.jpeg)
 
-*Figure 7 AWS S3 Curated bucket Summarized output - System*
-![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/Summ_out_sys.jpeg)
+*Figure 6 AWS S3 Curated bucket Summarized output - System*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/member_system.jpeg)
 
-*Figure 8 AWS S3 Curated bucket Summarized output - User*
-![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/Summ_out_user.jpeg)
+*Figure 7 AWS S3 Curated bucket Summarized output - User*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/member_user.jpeg)
 
-*Figure 9 AWS Glue Data Catalog tables*
-![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/Data_catalog_table.jpeg)
+*Figure 8 AWS Glue Data Catalog tables*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/member_table.jpeg)
 
 # Tools and Technologies:
 
