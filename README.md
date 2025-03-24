@@ -77,7 +77,7 @@ The project follows a structured approach to data analytics, divided into five k
 
 
 
-# Members List
+<code style="color : name_color">Member List</code>
 
 # Description:
 The Member List project is designed to manage and maintain comprehensive records of students within an educational institution. It includes critical details such as student demographics, academic performance, and contact information. The primary goal is to establish a centralized system for tracking student progress, facilitating communication, and supporting academic decision-making.
