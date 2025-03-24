@@ -113,10 +113,10 @@ The project follows a structured approach to data analytics, divided into five k
 
 -   **Data Storage:** The cleaned data is stored back in Amazon S3 for further analysis or integration with other datasets.
  
--   **Reporting:** AWS Glue is used to generate reports on student demographics, academic trends, and enrollment statistics. 
+-   **Reporting:** AWS Glue is used to generate reports on student demographics, academic trends, and enrollment statistics.
 
-    *Figure 5 AWS Glue - ETL pipeline visualization*
-    ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/member_pipeline.jpeg)
+*Figure 5 AWS Glue - ETL pipeline visualization*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/member_pipeline.jpeg)
 
 *Figure 6 AWS S3 Curated bucket Summarized output - System*
 ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/member_system.jpeg)
