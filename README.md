@@ -69,10 +69,8 @@ The project follows a structured approach to data analytics, divided into five k
     
 -   **Cleaned Data Set:** A cleaned and standardized dataset ready for analysis.
     
-
 -   **Data Catalog:** A structured data catalog created using AWS Glue, enabling easy access and querying of the data.
 
-    
 -   **Summarized Insights:** Key insights derived from the data, including metrics such as the average number of calls offered and abandoned.
 
 
@@ -87,22 +85,48 @@ The Member List project is designed to manage and maintain comprehensive records
 -   To monitor academic performance metrics such as GPA and enrollment status.
 -   To enable seamless communication with students through email and phone.
 
+*Figure 1 Data Analytics Platform design (Draw.io)*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/draw_io.jpeg)
+
 # Methodology:
 
 The project follows a structured approach to data analytics, divided into five key steps:
 
 -   **Data Collection:** Student data is collected through structured CSV files and stored in Amazon S3
+
+  *Figure 2 AWS S3 Raw data storage (Excel file)*
+ ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/member_s3.jpeg)
     
 -   **Data Profiling:** AWS Glue DataBrew is used to profile the dataset, identifying missing values, duplicates, and inconsistencies.
+
+  *Figure 3 AWS Glue DataBrew updated data profile*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/data_profiling.jpeg)
     
 -   **Data Cataloging:** The dataset is registered in the AWS Glue Data Catalog to create a searchable metadata repository.
 
+  *Figure 4 AWS Glue DataBrew Profiling Job*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/data_cleaning.jpeg)
+
 -   **Data Transformation:** AWS Glue ETL jobs are employed to clean and standardize the data (e.g., formatting names, correcting GPA values).
+
+  *Figure 5 AWS Glue – Data catalog - job creation & run*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/data_cataloging.jpeg)
 
 -   **Data Storage:** The cleaned data is stored back in Amazon S3 for further analysis or integration with other datasets.
  
 -   **Reporting:** AWS Glue is used to generate reports on student demographics, academic trends, and enrollment statistics. 
-    
+
+    *Figure 6 AWS Glue - ETL pipeline visualization*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/pipeline_visualization.jpeg)
+
+*Figure 7 AWS S3 Curated bucket Summarized output - System*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/Summ_out_sys.jpeg)
+
+*Figure 8 AWS S3 Curated bucket Summarized output - User*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/Summ_out_user.jpeg)
+
+*Figure 9 AWS Glue Data Catalog tables*
+![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/Data_catalog_table.jpeg)
 
 # Tools and Technologies:
 
