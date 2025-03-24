@@ -1,6 +1,6 @@
 # Project - Descriptive Analysis
 
-##  3-1-1 Service Requests
+#  3-1-1 Service Requests
 
 # Project Description:
 The project focuses on designing and implementing a Data Analytics Platform (DAP) for the 3-1-1 service requests in Vancouver. The 3-1-1 service is a non-emergency contact center that provides information an assistance to residents and visitors. The platform aims to streamline the process of data ingestion, profiling, cleaning, cataloging, and summarization to derive actionable insights from the service request data.
@@ -76,7 +76,8 @@ The project follows a structured approach to data analytics, divided into five k
 -   **Summarized Insights:** Key insights derived from the data, including metrics such as the average number of calls offered and abandoned.
 
 
-## Members List
+
+# Members List
 
 # Project Description:
 The Member List project is designed to manage and maintain comprehensive records of students within an educational institution. It includes critical details such as student demographics, academic performance, and contact information. The primary goal is to establish a centralized system for tracking student progress, facilitating communication, and supporting academic decision-making.
@@ -124,7 +125,8 @@ The project follows a structured approach to data analytics, divided into five k
 -   **Summarized Insights:** Key insights derived from the data, including metrics such as average GPA, enrollment trends, and demographic breakdowns.
 
 
-## Advisor List:
+
+# Advisor List:
 
 # Project Description:
 The Advisor List project is designed to manage advisor records, including their specialization, availability, and contact details. The goal is to ensure that students are assigned the most suitable advisor based on their needs and the advisor's expertise, while also tracking advisor workload and performance.
@@ -166,7 +168,8 @@ The Advisor List project is designed to manage advisor records, including their 
 -   **Summarized Insights:** Key insights derived from the data, including metrics such as advisor workload, specialization distribution, and availability trends.
 
 
-##  Complaint List:
+
+#  Complaint List:
 
 # Project Description:
 The Complaint List project focuses on managing and resolving student complaints efficiently. It includes details such as complaint type, description, status, and assigned advisor. The goal is to streamline the complaint resolution process, improve response times, and enhance student satisfaction.
