@@ -241,8 +241,8 @@ The Complaint List project focuses on managing and resolving student complaints 
 # Methodology:
 -   **Data Collection:** Complaint data is collected through structured CSV files and stored in Amazon S3.
 
-*Figure 2 AWS S3 Raw data storage (Excel file)*
-![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/complaint_s3.jpeg)
+ *Figure 2 AWS S3 Raw data storage (Excel file)*
+ ![Alt text](https://raw.githubusercontent.com/nandini-sangaraju/data-analyst-nandini/main/Images/complaint_s3.jpeg)
   
 -   **Data Profiling:** AWS Glue DataBrew is used to profile the dataset, identifying common complaint types, trends, and data quality issues.
 
